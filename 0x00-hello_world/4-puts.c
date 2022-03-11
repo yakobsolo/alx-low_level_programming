@@ -2,13 +2,13 @@
 /**
  * main -Entry point
  * 
- * Return : Always 0(Success)
+ * Return :0 after printing the funciton
  */
 int main(void)
 {
- puts("\" Programing is ike building a multililngual puzzle");
+puts("\" Programing is ike building a multililngual puzzle");
  
-return(0)
+return (0);
 }
 
 
