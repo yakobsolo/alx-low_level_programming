@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- *
  *main - Enter point
- *Retrun: Alway 0 (Success) 
+ *Retrun: Alway 0 (Success)
  */
 int main(void)
 {
