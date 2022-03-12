@@ -11,15 +11,11 @@ int main(void)
 
 	for( c = 'a'; c <= 'z'; ++c)
 	{
-		if( c == q && c == e)
-		{
-			putchar(c);
-		        continue;
-		}
-		else
+		if !( c == q && c == e)
 		{
 			putchar(c);
 		}
+		
 	}
 	return (0);
 }
