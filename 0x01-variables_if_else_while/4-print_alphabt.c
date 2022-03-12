@@ -13,13 +13,13 @@ int main(void)
 		{
 			continue;
 		}
-		else if ( c = 'e')
+		else if ( c == 'e')
 		{
 			continue;
 		}
 		else
 			putchar(c);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
