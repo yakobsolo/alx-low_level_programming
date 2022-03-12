@@ -6,16 +6,20 @@
 int main(void)
 {
 	char c;
-	char q = 'q';
-	char e = 'e';
 
 	for( c = 'a'; c <= 'z'; ++c)
 	{
-		if !( c == q && c == e)
+		if ( c == 'q')
 		{
-			putchar(c);
+			continue;
 		}
-		
+		else if ( c = 'e')
+		{
+			continue;
+		}
+		else
+			putchar(c);
 	}
+	putchar("\n");
 	return (0);
 }
