@@ -9,12 +9,17 @@ int main(void)
 	char q = 'q';
 	char e = 'e';
 
-	for(c = 'a';c <= 'z';++c)
+	for( c = 'a'; c <= 'z'; ++c)
 	{
-		if(c == q && c == e)
-			continue;
-		else
+		if( c == q && c == e)
+		{
 			putchar(c);
+		        continue;
+		}
+		else
+		{
+			putchar(c);
+		}
 	}
 	return (0);
 }
