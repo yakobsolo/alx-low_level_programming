@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return - returns 0 (sucess)
+ * Return: returns 0 (sucess)
  */
 int main(void)
 {
@@ -9,9 +9,9 @@ int main(void)
 
 	while (n < 10)
 	{
-		putchar(n);
+		printf("%d", n);
 		n++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
