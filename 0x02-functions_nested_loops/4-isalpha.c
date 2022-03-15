@@ -1,5 +1,5 @@
 #include <ctype.h>
-#include <main.h>
+#include "main.h"
 /**
  * _isalpha - function than checks for alphabetic character
  * @c: accepts an integer value
