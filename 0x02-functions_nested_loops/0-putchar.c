@@ -1,14 +1,19 @@
 #include <stdio.h>
-#include "_putchar.c"
+#include "_putchar.h"
 /**
  * main - entry point
  * Return: retruns o success
  */
-int _putchar(char c);
-
 int main(void)
 {
 	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
 	
