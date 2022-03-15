@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <main.h>
 /**
  * _isalpha - function than checks for alphabetic character
