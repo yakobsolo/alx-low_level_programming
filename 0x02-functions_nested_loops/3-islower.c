@@ -5,17 +5,13 @@
  */
 int _islower(int c)
 {
-	int r;
-
-	for (c = 97; c <= 122; c++)
+	if (islower(c) == 0)
 	{
-		if (r == c)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (0);
+	}
+	else
+	{
+		return (1);
 	}
 }
+
