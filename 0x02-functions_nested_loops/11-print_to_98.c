@@ -1,21 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * print_to_98 - function entry poiont
- * @n: accepts an integer
+ * print_to_98 - print all natural numbers from n to 98.
+ * @n: the number to start counting from n to 98
+ * Return: Always 0.
  */
 void print_to_98(int n)
 {
-	for (n = 0; n <= 98; n++)
-	{
-		_putchar(n + '0');
-	}
-	for (n = 561; n >= 98; n--)
-	{
-		_putchar('0' + n);
-	}
-	for (n = -422; n <= 98; n++)
-	{
-		_putchar(n + '0');
-	}
-	_putchar('\n');
+if (n < 98)
+{
+for (n = n; n < 98; n++)
+printf("%d, ", n);
+printf("%d\n", 98);
+}
+else
+{
+for (n = n; n > 98; n--)
+printf("%d, ", n);
+printf("%d\n", 98);
+}
 }
