@@ -5,11 +5,11 @@
  */
 int _islower(int c)
 {
-	int i;
+	int r;
 
 	for (c = 97; c <= 122; c++)
 	{
-		if (i == c)
+		if (r == c)
 		{
 			return (1);
 		}
