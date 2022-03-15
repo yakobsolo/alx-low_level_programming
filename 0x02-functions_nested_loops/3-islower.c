@@ -5,7 +5,17 @@
  */
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
-		return 1;
-}
+	int i;
 
+	for (c = 97; c <= 122; c++)
+	{
+		if (i == c)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
+}
