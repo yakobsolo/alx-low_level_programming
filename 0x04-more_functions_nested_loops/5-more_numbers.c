@@ -23,6 +23,6 @@ void more_numbers(void)
 			p = j % 10;
 			_putchar(p + '0');
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
