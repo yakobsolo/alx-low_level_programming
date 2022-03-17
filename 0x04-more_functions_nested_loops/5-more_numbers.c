@@ -2,7 +2,6 @@
 /**
  * more_numbers - function to print more numbers
  *
- *
  */
 void more_numbers(void)
 {
@@ -10,7 +9,7 @@ void more_numbers(void)
 	int j;
 	int k;
 	int p;
-
+	
 	for (i = 0; i <= 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
