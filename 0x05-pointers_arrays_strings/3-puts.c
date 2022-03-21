@@ -3,7 +3,7 @@
 /**
  * _puts - function to print a stirng
  * @str: parameter
- * 
+ *
  */
 void _puts(char *str)
 {
