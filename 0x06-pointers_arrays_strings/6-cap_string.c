@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * separators - checks and ensure that all string is capitalized
+ * separator - checks and ensure that all string is capitalized
  * @c: character to be checked
  * Return: if separator return 1. Otherwise return 0;
  */
