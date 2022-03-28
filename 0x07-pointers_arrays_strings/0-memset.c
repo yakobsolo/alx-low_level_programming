@@ -4,8 +4,7 @@
  * @s: pointer to an address
  * @b: argument parameter
  * @n: argumetn paramter
- *
- * Return: rurns pointer to memory area s
+ * Return: returns pointer to memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
