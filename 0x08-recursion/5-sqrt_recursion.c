@@ -8,7 +8,7 @@
  */
 int sqr(int n, int j)
 {
-	if (j < n)
+	if (j <= n)
 	{
 		if (j * j == n)
 		{
