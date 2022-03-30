@@ -5,7 +5,7 @@
  *   *@num: num
  *    *@iterator: number to iterate
  *     *Return: return 1 or 0
- *      */
+ */
 
 int evaluate_num(int num, int iterator)
 {
@@ -33,8 +33,7 @@ int evaluate_num(int num, int iterator)
  *  *is_prime_number - evaluate prime or not
  *   *@num: number
  *    *Return: return 1 prime - return 0 otherwise
- *     */
-
+ */
 int is_prime_number(int num)
 {
 
