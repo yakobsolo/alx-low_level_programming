@@ -1,6 +1,5 @@
 #include <string.h>
 #include "main.h"
-#include <stdlib.h>
 /**
  * _strdup - function that return pointer to new string
  * @str: argument parameter
