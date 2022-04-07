@@ -11,9 +11,9 @@ void *malloc_checked(unsigned int b)
 		void *i;
 
 		i = malloc(b);
-		if (n == NULL)
+		if (i == NULL)
 		{
 			exit(98);
 		}
-		return (n);
+		return (i);
 }
