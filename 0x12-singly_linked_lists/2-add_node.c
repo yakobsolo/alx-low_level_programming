@@ -10,6 +10,24 @@
 * Return: The address of the new node.
 *
 */
+/**
+* _strlen - Returns the length of a string.
+* @s: The pointer.
+*
+* Return: To the value of s.
+*/
+int _strlen(const char *s)
+{
+int i;
+i = 0;
+
+        while (s[i] != 0)
+        {
+        i++;
+        }
+return (i);
+}
+
 list_t *add_node(list_t **head, const char *str)
 {
 list_t *new;
@@ -28,21 +46,4 @@ list_t *new;
 	new->next = *head;
 	*head = new;
 return (new);
-}
-/**
-* _strlen - Returns the length of a string.
-* @s: The pointer.
-*
-* Return: To the value of s.
-*/
-int _strlen(const char *s)
-{
-int i;
-i = 0;
-
-	while (s[i] != 0)
-	{
-	i++;
-	}
-return (i);
 }

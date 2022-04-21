@@ -3,6 +3,23 @@
 #include <stdlib.h>
 #include <string.h>
 /**
+* _strlen - Returns the length of a string.
+* @s: The pointer.
+*
+* Return: To the value of s.
+*/
+int _strlen(const char *s)
+{
+	int i;
+
+	i = 0;
+	while (s[i] != 0)
+	{
+		i++;
+	}
+	return (i);
+}
+/**
 * add_node_end - A function that adds a new node at the end of a list_t list.
 * @head: Double pointer to the null.
 * @str: Variable type string.
@@ -39,21 +56,4 @@ list_t *last;
 	}
 	last->next = new;
 return (new);
-}
-/**
-* _strlen - Returns the length of a string.
-* @s: The pointer.
-*
-* Return: To the value of s.
-*/
-int _strlen(const char *s)
-{
-int i;
-i = 0;
-
-	while (s[i] != 0)
-	{
-	i++;
-	}
-return (i);
 }
