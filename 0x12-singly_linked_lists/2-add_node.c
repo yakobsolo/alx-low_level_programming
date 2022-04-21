@@ -7,14 +7,7 @@
 * @head: Double pointer to the null.
 * @str: Variable type string.
 *
-* Return: The address of the new node.
-*
-*/
-/**
-* _strlen - Returns the length of a string.
-* @s: The pointer.
-*
-* Return: To the value of s.
+* Return: the address fo the new node
 */
 int _strlen(const char *s)
 {
@@ -27,6 +20,15 @@ int _strlen(const char *s)
 	}
 	return (i);
 }
+
+/**
+* add_node - A function that adds a new node at the beginning of a list_t list.
+* @head: Double pointer to the null.
+* @str: Variable type string.
+*
+* Return: The address of the new node.
+*
+*/
 
 list_t *add_node(list_t **head, const char *str)
 {
