@@ -21,4 +21,5 @@ list_t *cpr = head;
 		free(cpr);
 		cpr = new;
 	}
+	cpr = NULL;
 }
