@@ -12,7 +12,10 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int i;
 
 	binary = b;
-
+	if (binary)
+	{
+		return (NULL);
+	}
 	for (sum = 0, i = 0; binary[i] != '\0'; i++)
 	{
 		if (binary[i] == '1')
