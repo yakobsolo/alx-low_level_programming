@@ -11,12 +11,12 @@ all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 clean :
-	$(RM) $(wildcard *~) $(NAME)
+	$(RM) *~ $(NAME)
 
 oclean :
 	$(RM) $(OBJ)
 
 fclean :
-	$(RM) $(wildcard *~) $(wildcard *.o) $(NAME)
+	$(RM) *~ oclean $(NAME)
 
 re : oclean all
