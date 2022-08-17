@@ -2,8 +2,11 @@ all: main
 
 CC = gcc
 SRC = main.c school.c
-OBJ = $(wildcard *.o)
+OBJ = $(SRC:%.c=%.o)
 NAME = school
+
+%.o: %.c m.h
+	$(CC) -c -o $@ $<
 
 main:
 	$(CC) $(SRC) -o $(NAME)
