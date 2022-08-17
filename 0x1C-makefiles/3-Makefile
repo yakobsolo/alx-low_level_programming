@@ -1,22 +1,15 @@
-C=gcc
-SRC=main.c school.c
-OBJ=$(SRC:%.c=%.o)
-NAME=school
-RM=rm -f
-
-%.o : %.c m.h
+CC = gcc
+SRC = school.c main.c
+OBJ = $(SRC:%.c=%.o)
+NAME = school
+RM = rm -f
+%.o: %.c m.h
 	$(CC) -c -o $@ $<
-
-all : $(OBJ)
+all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-
-clean :
+clean:
 	$(RM) *~ $(NAME)
-
-oclean :
+oclean:
 	$(RM) $(OBJ)
-
-fclean :
-	$(RM) *~ oclean $(NAME)
-
-re : oclean all
+fclean: clean oclean
+re: oclean all
